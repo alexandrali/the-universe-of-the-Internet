@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding:0;
+}
+
+.logo-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    height: 76px;
+    background: #f1f1f2;
+    border-bottom: 1px solid #ebecec;
+
+    padding-left: 66px;
+}
+
+.logo-bar a {
+    display: inline-block;
+}
+
+.logo-bar a img {
+    height: auto;
+    margin-right: 52px;
+    max-height: 40px;
+}
+
+/******************************************************************/
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    position: relative;
+
+    height: 128px;
+    width: 100%;
+    background: #e5e6e6;
+    border-bottom: 5px solid #929497;
+}
+
+.header div.circles {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header div.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    max-width: 40%;
+    height: 200px;
+}
+
+.header div.title-img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    height: 200px;
+    background: #e5e6e6;
+    border-bottom: 5px solid #929497;
+}
+
+.header div.title img {
+    max-height: 128px;
+    margin: 0 18px;
+}
+
+.triangle1 {
+    display: flex;
+    float: right;
+    align-self: flex-end;
+
+    width: 0;
+    height: 0;
+    margin-bottom: -3px;
+    border-style: solid;
+    border-width: 0 60px 75px 0;
+    border-color: transparent #929497 transparent transparent;
+}
+
+.triangle2 {
+    width: 0;
+    height: 0;
+    margin-left: 5px;
+    border-style: solid;
+    border-width: 0 55px 70px 0;
+    border-color: transparent #e5e6e6 transparent transparent;
+}
+
+.header img.circle {
+    max-height: 61px;
+}
+
+img#circle1, img#circle2 {
+    margin-left: 78px;
+}
+
+img#circle3, img#circle4 {
+    margin-right: 78px;
+}
+
+/*************************************/
+
+
+.temp-pic {
+    width: 100%;
+    height: 300px;
+    background: black;
+}
+
+.space {
+    width: 100%;
+    /*z-index: 1*/
+}
+/*img#mybg {
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 1920px;
+    z-index: -999999;
+}*/
