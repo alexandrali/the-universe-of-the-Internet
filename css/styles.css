@@ -1,115 +1,9 @@
 * {
     margin: 0;
     padding:0;
+    font-family: Arial, Helvetica, serif;
+    color: #fff;
 }
-
-.logo-bar {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-
-    height: 76px;
-    background: #f1f1f2;
-    border-bottom: 1px solid #ebecec;
-
-    padding-left: 66px;
-}
-
-.logo-bar a {
-    display: inline-block;
-}
-
-.logo-bar a img {
-    height: auto;
-    margin-right: 52px;
-    max-height: 42px;
-}
-
-#unicef {
-    max-height: 26px;
-}
-
-/******************************************************************/
-
-.header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-    position: relative;
-
-    height: 128px;
-    width: 100%;
-    background: #e5e6e6;
-    border-bottom: 5px solid #929497;
-}
-
-.header div.circles {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.header div.title {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-
-    max-width: 40%;
-    height: 200px;
-}
-
-.header div.title-img {    
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-
-    height: 200px;
-    background: #e5e6e6;
-    border-bottom: 5px solid #929497;
-}
-
-.header div.title img {
-    max-height: 128px;
-    /*margin: 0 18px;*/
-}
-
-.triangle1 {
-    display: flex;
-    float: right;
-    align-self: flex-end;
-
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 0 60px 70px 0;
-    border-color: transparent #929497 transparent transparent;
-}
-
-.triangle2 {
-    width: 0;
-    height: 0;
-    margin-top: -5px;
-    border-style: solid;
-    border-width: 0 60px 70px 0;
-    border-color: transparent #e5e6e6 transparent transparent;
-}
-
-.header img.circle {
-    max-height: 61px;
-}
-
-img#circle1, img#circle2 {
-    margin-left: 78px;
-}
-
-img#circle3, img#circle4 {
-    margin-right: 78px;
-}
-
-/*************************************/
 
 .register {
     display: flex;
@@ -128,7 +22,6 @@ img#circle3, img#circle4 {
     font-size: 34px;
     text-shadow: 0 0 3px #70cce9;
     color: #70cce9;
-    font-family: "Arial Regular", Arial, serif;
     font-weight: normal;
 }
 
@@ -140,7 +33,6 @@ img#circle3, img#circle4 {
     padding:  20px 30px;
 
     font-size: 25px;
-    color: white;
     text-shadow: 0 0 10px #a350af;
     text-decoration: none;
 
@@ -149,7 +41,6 @@ img#circle3, img#circle4 {
 
     border-radius: 8px;
 
-    font-family: "Arial Regular", Arial, serif;
     font-weight: normal;
 }
 
@@ -322,8 +213,6 @@ img#circle3, img#circle4 {
 }
 
 .btn {
-    color: white;
-    font-family: Arial;
     font-size: 32px;
     background-image: linear-gradient(#fff, #ff073b);
     box-shadow: 2px 2px #bbbdbf inset, 2px 2px #fff;

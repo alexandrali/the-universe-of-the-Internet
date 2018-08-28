@@ -1,0 +1,40 @@
+.logo-bar {
+    display: flex;
+    align-items: center;
+
+    background: #f1f1f2;
+    border-bottom: 1px solid #ebecec;
+    padding-left: 5%;
+    height: 76px;
+}
+
+.logo-bar a img {
+    margin-right: 45px;
+    height: 45px;
+}
+
+.logo-bar a {
+    display: inline-block;
+}
+
+#unicef {
+    max-height: 26px;
+}
+
+@media only screen and (min-width: 768px) {
+    .logo-bar a img {
+        margin-right: 50px;
+        height: 50px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .logo-bar {
+        height: 98px;
+    }
+
+    .logo-bar a img {
+        margin-right: 60px;
+        height: 56px;
+    }
+}
