@@ -5,46 +5,12 @@
     color: #fff;
 }
 
-.register {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    background-image: url("../img/space.jpg");
-    height: 372px;
-    overflow: hidden;
-
+@media only screen and (max-width: 600px) {
+    .xs-hidden {    
+        display: none;
+    }
 }
 
-.register h2 {
-    align-self: center;
-
-    font-size: 34px;
-    text-shadow: 0 0 3px #70cce9;
-    color: #70cce9;
-    font-weight: normal;
-}
-
-.register a {
-    align-self: center;
-
-    margin-top: 30px;
-
-    padding:  20px 30px;
-
-    font-size: 25px;
-    text-shadow: 0 0 10px #a350af;
-    text-decoration: none;
-
-    border: 1px solid white;
-    box-shadow: 0 0 15px 3px #a350af;
-
-    border-radius: 8px;
-
-    font-weight: normal;
-}
-
-/***********************************/
 
 .bottom-gates {
     display: flex;

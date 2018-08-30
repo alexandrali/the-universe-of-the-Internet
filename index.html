@@ -7,10 +7,12 @@
   <title>Вселенная Интернета</title>
   <meta name="description" content="Internet Universe">
   <meta name="author" content="SitePoint">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/logo-bar.css">
   <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/register.css">
 
 </head>
 
@@ -33,23 +35,24 @@
       <div class="header">
         <div class="circles">
           <img id="circle1" class="circle" src="img/circle1.png" alt="circle" />
-          <img id="circle2" class="circle" src="img/circle2.png" alt="circle" />
+          <img id="circle2" class="circle xs-hidden" src="img/circle2.png" alt="circle" />
         </div>
         <div class="title">
-          <div class="triangle1"><div class="triangle2"></div></div>
-          <div class="title-img">
-            <img id="title" src="img/title.png" alt="title" />
-          </div>
-          <div class="triangle1" style="transform: scale(-1, 1);"><div class="triangle2"></div></div>
+          <img id="title" src="img/title.png" alt="title" />
         </div>
         <div class="circles">
           <img id="circle3" class="circle" src="img/circle1.png" alt="circle" />
-          <img id="circle4" class="circle" src="img/circle2.png" alt="circle" />          
+          <img id="circle4" class="circle xs-hidden" src="img/circle2.png" alt="circle" />          
         </div>
       </div>
-      <div class="register">
+      <div class="header-bottom">
+        <div class="crop"><img src="img/rectangle.png" /></div>
+        <div class="bottom"></div>
+        <div class="crop"><img src="img/rectangle.png" style="transform: scale(-1, 1);"/></div>
+      </div>
+      <div class="register">      
         <h2>Приглашаем на интерактивную выставку!</h2>
-        <a href="google.com">РЕГИСТРАЦИЯ</a>
+        <a href=""><span>РЕГИСТРАЦИЯ</span></a>
       </div>
       <div class="bottom-gates">
         <div class="gate" style="justify-content: flex-start;">
@@ -69,6 +72,8 @@
         </div>
       </div>
       <div class="middle-gate"></div>
+
+      <!--
       <div class="content">
 
         <div class="location">
@@ -192,6 +197,7 @@
             </div>
           </div>
       </div>
+    -->
     </div>
   <script src="./main.js"></script>
 </body>

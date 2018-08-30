@@ -30,11 +30,11 @@
 
 @media only screen and (min-width: 992px) {
     .logo-bar {
-        height: 98px;
+        height: 90px;
     }
 
     .logo-bar a img {
         margin-right: 60px;
-        height: 56px;
+        height: 52px;
     }
 }
