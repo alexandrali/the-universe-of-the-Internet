@@ -1,0 +1,96 @@
+.bottom-gates {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: -82px;
+    z-index: 2;
+}
+
+.gate {
+    display: flex;
+
+    width: 50%;
+    max-height: 82px;
+}
+
+.gate #main {
+    width: 50%;
+}
+
+.gate #main div:first-child{
+    height: 5px;
+    background: #ffffff;
+    border-bottom: 1px solid #76787c;
+}
+
+.gate #main div:last-child {
+    box-sizing: border-box;
+    height: 76px;
+    background: #e5e6e6;
+}
+
+.triangle3 {
+    display: flex;
+    float: right;
+    align-self: flex-end;
+
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 81px 0 0 60px;
+    border-color: transparent transparent transparent white;
+    margin-bottom: 1px;
+}
+
+.triangle4 {
+    width: 0;
+    height: 0;
+    margin-top: -76px;
+    margin-left: -60px;
+    border-style: solid;
+    border-width: 77px 0 0 56px;
+    border-color: transparent transparent transparent #76787c;
+}
+
+.triangle5 {
+    width: 0;
+    height: 0;
+    margin-top: -76px;
+    margin-left: -56px;
+    border-style: solid;
+    border-width: 76px 0 0 55px;
+    border-color: transparent transparent transparent #e5e6e6;
+}
+
+.middle-gate{
+    height: 5px;
+    background: #ffffff;
+    border-bottom: 1px solid #76787c;
+    margin-top: -6px;
+    z-index: 1;
+}
+
+@media only screen and (max-width: 600px) {
+    .bottom-gates {
+        margin-top: -35px;
+    }
+    .gate {
+        max-height: 35px;
+    }
+    .gate #main div:last-child {
+        height: 30px;
+    }
+    .triangle3 {
+        border-width: 35px 0 0 24px;
+    }
+    .triangle4 {
+        border-width: 35px 0 0 24px;
+        margin-top: -29px;
+        margin-left: -24px;
+    }
+    .triangle5 {
+        margin-top: -29px;
+    margin-left: -24px;
+        border-width: 35px 0 0 24px;
+    }
+}
