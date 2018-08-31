@@ -22,9 +22,10 @@
 }
 
 @media only screen and (max-width: 768px) {
+
     .logo-bar {
         height: 50px; 
-     }
+    }
 
     .logo-bar a img {
         margin-right: 25px;
@@ -37,6 +38,9 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
+    .logo-bar {
+        height: 70px; 
+    }
     .logo-bar a img {
         margin-right: 50px;
         height: 50px;
