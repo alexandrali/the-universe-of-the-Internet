@@ -179,5 +179,9 @@ img#circle3, img#circle4 {
     .header img.circle {
         max-height: 68px;
     }
+
+    .header-bottom .bottom {
+        margin-top: -10px;
+    }
 }
 

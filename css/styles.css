@@ -120,15 +120,16 @@
 }
 
 .btn {
-    font-size: 32px;
     background-image: linear-gradient(#fff, #ff073b);
     box-shadow: 2px 2px #bbbdbf inset, 2px 2px #fff;
     border-radius: 10px;
     text-decoration: none;
-    margin: 15px 0;
     padding: 10px 0;
     text-align: center;
     cursor: pointer;
+    width: 10vw;
+    font-size: 1.5vw;
+    margin: 10px 0;
 }
 
 .smallcircles {
@@ -196,12 +197,6 @@
 }
 
 @media only screen and (min-width: 600px) and (max-width: 768px) {
-    .btn {
-        width: 10vw;
-        font-size: 1.5vw;
-        margin: 10px 0;
-        padding: 10px 0;
-    }
 
     .main-block {
         width: 25vw;
@@ -212,14 +207,32 @@
     }
 
     .block-decoration, .cross img {
-        height: 30px;;
+        height: 30px;
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
-    .content {
-        padding: 33px 0;
+
+    .main-block {
+        width: 25vw;
+    }
+
+    .tour .divider + div {
+        padding: 0 20px;
+    }
+
+    .block-decoration, .cross img {
+        height: 30px;
     }
 }
 
-/* style="padding: 0 20px; width: 70%;" */
+@media only screen and (min-width: 992px) {
+
+    .main-block {
+        width: 25vw;
+    }
+
+    .tour .divider + div {
+        padding: 0 10px;
+    }
+}
