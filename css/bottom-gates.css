@@ -77,20 +77,23 @@
     .gate {
         max-height: 35px;
     }
+    .gate #main {
+        width: 40%;
+    }
     .gate #main div:last-child {
         height: 30px;
     }
     .triangle3 {
-        border-width: 35px 0 0 24px;
+        border-width: 34px 0 0 23px;
     }
     .triangle4 {
-        border-width: 35px 0 0 24px;
+        border-width: 29px 0 0 19px;
         margin-top: -29px;
-        margin-left: -24px;
+        margin-left: -23px;
     }
     .triangle5 {
-        margin-top: -29px;
-    margin-left: -24px;
-        border-width: 35px 0 0 24px;
+        margin-top: -28px;
+        margin-left: -19px;
+        border-width: 29px 0 0 19px;
     }
 }
