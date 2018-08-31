@@ -62,6 +62,22 @@ img#circle3, img#circle4 {
     margin-right: 5vw;
 }
 
+.triangle1 {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 60px 70px 0;
+    border-color: transparent #929497 transparent transparent;
+}
+ .triangle2 {
+    width: 0;
+    height: 0;
+    margin-top: -5px;
+    border-style: solid;
+    border-width: 0 60px 70px 0;
+    border-color: transparent #e5e6e6 transparent transparent;
+}
+
 @media only screen and (max-width: 600px) {
     .header {
         height: 65px; 
@@ -97,6 +113,13 @@ img#circle3, img#circle4 {
         height: 30px;
         width: 55vw;
      }
+
+    .triangle1 {
+        border-width: 0 14px 25px 0;
+    }
+    .triangle2 {
+        border-width: 0 14px 25px 0;
+    }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 768px) {

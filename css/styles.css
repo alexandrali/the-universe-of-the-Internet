@@ -108,7 +108,8 @@
     border-radius: 10px;
     text-decoration: none;
     margin: 15px 0;
-    padding: 10px 52px;
+    padding: 10px 0;
+    text-align: center;
 }
 
 .smallcircles {
@@ -136,6 +137,7 @@
     .content {
         flex-direction: column;
         padding: 20px 0;
+
     }
 
     .location, .tour, .about {
@@ -144,9 +146,10 @@
     }
 
     .btn {
-        font-size: 18px;
+        width: 36vw;
+        font-size: 6vw;
         margin: 10px 0;
-        padding: 10px 48px;
+        padding: 10px 0;
     }
 
     .window {
