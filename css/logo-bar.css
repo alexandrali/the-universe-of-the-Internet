@@ -21,7 +21,22 @@
     max-height: 26px;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
+    .logo-bar {
+        height: 50px; 
+     }
+
+    .logo-bar a img {
+        margin-right: 25px;
+        height: 25px;
+    }
+    
+    #unicef {
+        max-height: 20px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
     .logo-bar a img {
         margin-right: 50px;
         height: 50px;
