@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/register.css">
   <link rel="stylesheet" href="css/bottom-gates.css">
+  <link rel="stylesheet" href="css/modal.css">
 
 </head>
 
@@ -53,7 +54,7 @@
       </div>
       <div class="register">      
         <h2>Приглашаем на интерактивную выставку!</h2>
-        <a href=""><span>РЕГИСТРАЦИЯ</span></a>
+        <a id="myBtn"><span>РЕГИСТРАЦИЯ</span></a>
       </div>
       <div class="bottom-gates">
         <div class="gate" style="justify-content: flex-start;">
@@ -200,6 +201,89 @@
             </div>
           </div>
       </div>
+
+      <div id="myModal" class="modal">
+
+          <!-- Modal content -->
+          <div class="modal-content">
+            <div class="modal-header">
+              <span class="close">&times;</span>
+              <h1>Регистрация</h1>
+            </div>
+            <div class="modal-body">
+              
+              <form>
+                <label class="reg-type">Групповая
+                  <input type="radio" name="radio" id="group" checked="checked" value="true" onclick="showGrop();">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="reg-type">Индивидуальная
+                  <input type="radio" name="radio" id="indiv" value="false" onclick="showIndiv();">
+                  <span class="checkmark"></span>
+                </label>
+              </form>
+
+              <div id="indivform">
+                <h2>Личная информация:</h2>
+
+                <form>
+                  <div class="fname">
+                    <label for="fname">Имя</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Имя..">
+                  </div>
+
+                  <div class="lname">
+                    <label for="lname">Фамилия</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Фамилия..">
+                  </div>
+
+                  <div class="city">
+                    <label for="city">Город</label>
+                    <input type="text" id="city" name="city" placeholder="Город..">
+                  </div>
+                  
+                  <div class="school">
+                    <label for="school">Школа</label>
+                    <input type="text" id="school" name="school" placeholder="Школа..">
+                  </div>
+
+                  <div class="grade">
+                    <label for="grade">Класс</label>
+                    <input type="text" id="grade" name="grade" placeholder="Класс..">
+                  </div>
+                  
+                </form>
+              </div>
+
+              <div id="groupform">
+                <h2>Сопровождающий взрослый:</h2>
+
+                <form>
+
+                  <label for="psurname">Фамилия</label>
+                  <input type="text" id="psurname" name="psurname" placeholder="Фамилия..">
+                  
+                  <label for="pname">Имя</label>
+                  <input type="text" id="pname" name="pname" placeholder="Имя..">
+                  
+                  <label for="pmidname">Отчество</label>
+                  <input type="text" id="pmidname" name="pmidname" placeholder="Отчество..">
+
+                  <label for="status">Кем приходится</label>
+                  <input type="text" id="status" name="status" placeholder="Кем приходится..">
+                    
+                </form>
+              </div>
+
+              
+              
+            </div>
+            <div class="modal-footer">
+              <input type="submit" value="Зарегистрироваться" onclick="save();">
+            </div>
+          </div>
+        
+        </div>
     
     </div>
   <script src="./main.js"></script>
