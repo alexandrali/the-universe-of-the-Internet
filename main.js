@@ -1,5 +1,5 @@
 // Get the modal
-var modal = document.getElementById('myModal');
+/*var modal = document.getElementById('myModal');
 
 // Get the button that opens the modal
 var btn = document.getElementById("myBtn");
@@ -22,7 +22,7 @@ window.onclick = function(event) {
     if (event.target == modal) {
         modal.style.display = "none";
     }
-}
+}*/
 
 function showGrop(){
     document.getElementById('indivform').style.display ='none';
@@ -61,7 +61,7 @@ function save() {
     }
     };
 
-    req.open("PUT", "https://api.jsonbin.io/b/5b8ab16edb948c68635b006c", true);
+    req.open("POST", "https://api.jsonbin.io/b/5b8ab16edb948c68635b006c/new", true);
     req.setRequestHeader("Content-type", "application/json");
     req.send(body);
 }
