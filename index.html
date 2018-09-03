@@ -25,7 +25,7 @@
           <img id="mts" src="img/mts.png" alt="mts" />
         </a>
         <a href="http://www.edu.by/" target=”_blank”>
-          <img id="edu" src="img/edu.png" alt="edu"hidden />
+          <img id="edu" src="img/edu.png" alt="edu" />
         </a>
         <a href="https://www.unicef.by/" target=”_blank”>
           <img id="unicef" src="img/unicef.png" alt="unicef" />
@@ -86,7 +86,7 @@
           <div class="main-block">
               <div>
                   <img class="deco" src="img/decoration.png" alt="cross" />
-                  <a class="btn" href="">Где мы</a>
+                  <a class="btn" id="locationBtn">Где мы</a>
                   <img class="deco" src="img/decoration.png" alt="cross" />
                 </div>
   
@@ -170,7 +170,7 @@
             <div class="main-block">
                 <div>
                     <img class="deco" src="img/decoration.png" alt="cross" />
-                    <a class="btn" href="">О проекте</a>
+                    <a class="btn" id="aboutBtn">О проекте</a>
                     <img class="deco" src="img/decoration.png" alt="cross" />
                   </div>
     
@@ -202,7 +202,41 @@
           </div>
       </div>
 
-      <div id="myModal" class="modal">
+      <div id="locationModal" class="modal">
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close" onclick="closeModal('locationModal')">&times;</span>
+            <h1>Где мы</h1>
+          </div>
+          <div class="modal-body">
+            <h4>Государственное учреждение «Национальная библиотека Беларуси»</h4>
+            <h4>пр. Независимости, 116, г. Минск, 220114, Беларусь</h4>
+          </div>
+        </div>
+      </div>
+
+      <div id="aboutModal" class="modal">
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close" onclick="closeModal('aboutModal')">&times;</span>
+            <h1>О проекте</h1>
+          </div>
+          <div class="modal-body">
+              <p><b>«Вселенная интернета МТС» </b>— интерактивная обучающая выставка для школьников. Проект направлен на образование в области интернет-грамотности и защиты личной информации в Сети.</p>
+              <p><b>«Вселенная интернета»</b> — это шесть интерактивных зон, ребята смогут отправиться в межгалактическое путешествие и пройти подготовку по кибербезопасности в увлекательной игровой форме. Во время экскурсии мы приведем интересные факты из истории интернета, расскажем о том, какие риски таит Глобальная сеть, научим правилам безопасного поведения в Сети. Во «Вселенной интернета» дети научатся генерировать сложные пароли, узнают, какую информацию можно размещать в социальных сетях, с кем можно общаться в интернете, как вести себя с подозрительными собеседниками, какие сайты не следует посещать, чтобы не заразить компьютер вирусами, как пользоваться антивирусными программами и что такое кибербуллинг.</p>
+              <p>После экскурсии каждый участник получит в подарок ID-карту – персональное удостоверение путешественника по «Вселенной интернета».</p>
+              <p>Мы приглашаем принять участие в проекте не только школьников, но и родителей, а также педагогов.</p>
+              <p><i>Проект реализован при поддержке Министерства образования Республики Беларусь, Главного информационно-аналитического центра Министерства образования Республики Беларусь, Детского фонда ООН ЮНИСЕФ.</i></p>
+              
+              
+              
+              
+              
+          </div>
+        </div>
+      </div>
+
+        <div id="myModal" class="modal">
 
           <!-- Modal content -->
           <div class="modal-content">

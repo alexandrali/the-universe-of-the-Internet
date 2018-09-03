@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
 
-    background-image: url("../img/space.jpg");
+    background-image: url("../img/mainspace.jpg");
     background-size: 100%;
     height: 400px;
     overflow: hidden;
@@ -15,7 +15,7 @@
     margin-top: 130px;
 
     font-size: 4vw;
-    text-shadow: 0 0 3px #70cce9;
+    text-shadow: 0 0 5px #70cce9;
     color: #70cce9;
     font-weight: normal;
 }
